@@ -2,13 +2,13 @@ package org.example;
 
 import java.util.Comparator;
 
-public class BublleSort  implements Sort, SortSupport{
+public class BublleSort<E>  implements Sort<E>, SortSupport<E>{
 
-    private Comparator comparator = null;
+    private Comparator<E> comparator = null;
     private Swapper swapper = null;
 
     @Override
-    public void setComparator(Comparator comparator){
+    public void setComparator(Comparator<E> comparator){
         this.comparator = comparator;
     }
 
@@ -18,7 +18,7 @@ public class BublleSort  implements Sort, SortSupport{
     }
 
     @Override
-    public void sort(Sortable collection) {
+    public void sort(Sortable<E> collection) {
         var n = collection.size();
         while (n > 1) {
             for (int j = 0; j < n-1; j++) {

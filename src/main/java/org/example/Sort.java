@@ -1,5 +1,5 @@
 package org.example;
 
-public interface Sort {
-    void sort(Sortable collection);
+public interface Sort<E> {
+    void sort(Sortable<E> collection);
 }
