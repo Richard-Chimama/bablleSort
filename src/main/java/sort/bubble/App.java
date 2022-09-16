@@ -1,4 +1,4 @@
-package org.example;
+package sort.bubble;
 
 /**
  * Hello world!

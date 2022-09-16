@@ -1,4 +1,4 @@
-package org.example;
+package sort.bubble;
 
 import org.junit.Assert;
 import org.junit.Test;

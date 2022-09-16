@@ -1,4 +1,4 @@
-package org.example;
+package sort.bubble;
 
 public class NonStringElementInCollectionException extends RuntimeException{
     public NonStringElementInCollectionException(String message, Throwable cause){

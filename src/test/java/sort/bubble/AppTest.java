@@ -1,4 +1,4 @@
-package org.example;
+package sort.bubble;
 
 import static org.junit.Assert.assertTrue;
 
