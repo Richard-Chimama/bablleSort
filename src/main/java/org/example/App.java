@@ -11,11 +11,6 @@ public class App
     var actualNames = new String[]{"Wilkinson", "Abraham", "Dagobert"};
 
     var sort = new BublleSort();
-    sort.sort(actualNames);
-
-    for(int i = 0; i < actualNames.length; i++){
-        System.out.println(actualNames[i]);
-    }
 
     }
 }
