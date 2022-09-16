@@ -7,9 +7,16 @@ public class StringComparator implements Comparator {
 
     @Override
     public int compare(Object first, Object second){
-        this.f = (String) first;
-        this.s = (String) second;
 
-        return f.compareTo(s);
-    }
+        try {
+            this.f = (String) first;
+            this.s = (String) second;
+
+            return f.compareTo(s);
+        }catch (ClassCastException cce){
+            throw new NonStringElementInCollectionException(
+                    "There are mixed elements in the collection.", cce
+            );
+        }
+    }//end of compare method
 }
