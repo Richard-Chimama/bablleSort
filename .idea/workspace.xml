@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e610a091-9392-43e2-958e-6419a1d7577d" name="Changes" comment="Implemented Babble sort">
+    <list default="true" id="e610a091-9392-43e2-958e-6419a1d7577d" name="Changes" comment="Improved the bubblesort algorithm to sort not only String but other data types. I have used the object-oriented programming in developing the program. I have written a JUnit test to make sure everything works fine.">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Sortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Swapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ArrayListSortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ArrayListSwapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/StringComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BublleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BublleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663321820845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improved the bubblesort algorithm to sort not only String but other data types. I have used the object-oriented programming in developing the program. I have written a JUnit test to make sure everything works fine.">
+      <created>1663329304394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663329304394</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implemented Babble sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Babble sort" />
+    <MESSAGE value="Improved the bubblesort algorithm to sort not only String but other data types. I have used the object-oriented programming in developing the program. I have written a JUnit test to make sure everything works fine." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved the bubblesort algorithm to sort not only String but other data types. I have used the object-oriented programming in developing the program. I have written a JUnit test to make sure everything works fine." />
   </component>
 </project>
